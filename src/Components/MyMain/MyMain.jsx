@@ -120,13 +120,13 @@ export default function MyMain({ tabName, onClick }) {
   return (
     <main className={classes.main}>
       <Tabs>
-        <Tab onClick={onClick} name="works">
+        <Tab onClick={onClick} isActive={tabName == "works"} name="works">
           Works
         </Tab>
-        <Tab onClick={onClick} name="stack">
+        <Tab onClick={onClick} isActive={tabName == "stack"} name="stack">
           Stack
         </Tab>
-        <Tab onClick={onClick} name="about">
+        <Tab onClick={onClick} isActive={tabName == "about"} name="about">
           About
         </Tab>
       </Tabs>
