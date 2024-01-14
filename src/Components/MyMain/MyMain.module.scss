@@ -12,6 +12,27 @@
   width: 100%;
 
   & > * {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
+}
+.items-clmn {
+  flex-direction: column;
+}
+
+.cards-block {
+  display: flex;
+  margin-left: 10px;
+}
+
+.html {
+  fill: #e44d25;
+}
+.css {
+  fill: #016eba;
+}
+.sass {
+  fill: #cd689a;
+}
+.git {
+  fill: #f03c2e;
 }
