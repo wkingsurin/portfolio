@@ -1,7 +1,42 @@
 #root {
+  position: relative;
+  z-index: -2;
+
+  max-width: 100vw;
+  min-height: 100vh;
+  background: url(../public/background.jpg);
+
+  --overlay-: rgba(18, 24, 38, 0.5);
+  --rich-b-: #000411;
+  --nap-yellow-: #efcb68;
+  --nap-yellow-75: rgba(239, 203, 104, 0.75);
+}
+
+body {
+  position: relative;
+  z-index: -1;
+  font-family: "Nunito";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
   max-width: 1280px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0 15px;
   box-sizing: border-box;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--overlay-);
 }

@@ -1,0 +1,18 @@
+.header {
+  flex: 0 0 190px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+}
+.dev-name-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.dev-name {
+  display: block;
+  font-size: 32px;
+  text-transform: uppercase;
+}

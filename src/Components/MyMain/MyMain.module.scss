@@ -1,0 +1,17 @@
+.main {
+  flex: 1 1;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  & > * {
+    margin-bottom: 30px;
+  }
+}

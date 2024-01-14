@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+
+  margin-bottom: 15px;
+
+  border-radius: 11px;
+  background-color: var(--rich-b-);
+
+  & > *:not(:last-child) {
+    margin-right: 1px;
+  }
+  & > *:first-child {
+    border-radius: 11px 0 0 11px;
+  }
+  & > *:last-child {
+    border-radius: 0 11px 11px 0;
+  }
+}
